@@ -1,0 +1,21 @@
+{
+  "name": "m101x",
+  "version": "1.0.0",
+  "description": "my first node app",
+  "dependencies": {
+    "mongodb" : "2.0.35",
+    "mocha": "2.2.4"
+    },
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test.js",
+    "watch": "gulp watch"
+  },
+  "devDependencies": {
+    "gulp": "3.8.11",
+    "gulp-mocha": "2.0.1",
+    "mocha": "2.2.4"
+    },
+  "author": "Lyman",
+  "license": "ISC"
+}
